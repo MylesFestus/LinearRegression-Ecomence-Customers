@@ -4,7 +4,9 @@ Ecommerce data - Using linear models to predict if the company should focus more
 
 Steps
 - Data import
-- Exploratory data analysis
+
+- Exploratory data analysis (EDA)
+
 - Data Preprocessing
 -- Train/Test Split
 Split your dataset into training and test sets first.
