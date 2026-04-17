@@ -22,5 +22,5 @@ iv. Fit the scaler (e.g., standardization) on the training data, then transform 
 - Model Training
 Train the model using the processed training data.
 
-- Evaluation
-Evaluate the model on the processed test data.
+- Evaluation -
+Evaluate the model on the processed test data and check model performance.
