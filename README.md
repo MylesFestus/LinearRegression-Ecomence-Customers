@@ -1,4 +1,4 @@
-# E-Commerce Customers — Machine Learning Analysis
+# ECommerce Customers — Machine Learning Analysis
 
 Predict how much a customer will spend annually based on their engagement behaviour using five regression models.
 
