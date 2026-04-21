@@ -104,7 +104,7 @@ All models show very low CV standard deviations, confirming no overfitting and r
 
 ---
 
-## Outputs (10 plots)
+## Outputs (11 plots)
 
 | File | Description |
 |---|---|
@@ -112,10 +112,10 @@ All models show very low CV standard deviations, confirming no overfitting and r
 | `02_distributions.png` | Histograms of all 4 features and the target variable |
 | `03_pairplot.png` | Pairwise scatter plots across all variables |
 | `04_correlation_heatmap.png` | Colour-coded Pearson correlation matrix |
-| `04_scatter_plots.png` | Each feature plotted against yearly spending with regression line |
-| `05_model_comparison.png` | R² and RMSE bar charts for all 5 models |
-| `06_cross_validation.png` | 5-fold CV R² scores with standard deviation error bars |
-| `07_actual_vs_predicted.png` | Scatter of actual vs predicted values for all 5 models |
-| `08_lr_coefficients.png` | Standardised coefficients from linear regression |
-| `09_feature_importance.png` | Feature importances from Random Forest and Gradient Boosting |
-| `10_residual_analysis.png` | Residuals vs predicted, residual distribution, Q-Q plot |
+| `05_scatter_plots.png` | Each feature plotted against yearly spending with regression line |
+| `06_model_comparison.png` | R² and RMSE bar charts for all 5 models |
+| `07_cross_validation.png` | 5-fold CV R² scores with standard deviation error bars |
+| `08_actual_vs_predicted.png` | Scatter of actual vs predicted values for all 5 models |
+| `09_lr_coefficients.png` | Standardised coefficients from linear regression |
+| `10_feature_importance.png` | Feature importances from Random Forest and Gradient Boosting |
+| `11_residual_analysis.png` | Residuals vs predicted, residual distribution, Q-Q plot |
