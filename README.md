@@ -108,9 +108,10 @@ All models show very low CV standard deviations, confirming no overfitting and r
 
 | File | Description |
 |---|---|
-| `01_distributions.png` | Histograms of all 4 features and the target variable |
-| `02_pairplot.png` | Pairwise scatter plots across all variables |
-| `03_correlation_heatmap.png` | Colour-coded Pearson correlation matrix |
+| `01_target_distributions.png` | Histogram and QQplot of the target variable (Yearly Amount Spent)  |
+| `02_distributions.png` | Histograms of all 4 features and the target variable |
+| `03_pairplot.png` | Pairwise scatter plots across all variables |
+| `04_correlation_heatmap.png` | Colour-coded Pearson correlation matrix |
 | `04_scatter_plots.png` | Each feature plotted against yearly spending with regression line |
 | `05_model_comparison.png` | R² and RMSE bar charts for all 5 models |
 | `06_cross_validation.png` | 5-fold CV R² scores with standard deviation error bars |
