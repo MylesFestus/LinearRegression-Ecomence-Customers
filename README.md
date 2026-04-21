@@ -33,44 +33,18 @@ Predict how much a customer will spend annually based on their engagement behavi
 ├── Ecommerce_Customers          # Raw dataset (CSV)
 ├── ecommerce_ml.py              # Main analysis script
 ├── README.md                    # This file
-├── 01_distributions.png         # Feature + target histograms
-├── 02_pairplot.png              # All-variable pairplot
-├── 03_correlation_heatmap.png   # Pearson correlation heatmap
-├── 04_scatter_plots.png         # Feature vs target scatter plots
-├── 05_model_comparison.png      # R² and RMSE bar charts
-├── 06_cross_validation.png      # 5-fold CV R² with error bars
-├── 07_actual_vs_predicted.png   # Actual vs predicted — all models
-├── 08_lr_coefficients.png       # Linear regression coefficients
-├── 09_feature_importance.png    # RF and GB feature importances
-└── 10_residual_analysis.png     # Residual plots for best model
+├── 01_target_distributions.png  # target histogram + QQplot
+├── 02_distributions.png         # Feature + target histograms
+├── 03_pairplot.png              # All-variable pairplot
+├── 04_correlation_heatmap.png   # Pearson correlation heatmap
+├── 05_scatter_plots.png         # Feature vs target scatter plots
+├── 06_model_comparison.png      # R² and RMSE bar charts
+├── 07_cross_validation.png      # 5-fold CV R² with error bars
+├── 08_actual_vs_predicted.png   # Actual vs predicted — all models
+├── 09_lr_coefficients.png       # Linear regression coefficients
+├── 10_feature_importance.png    # RF and GB feature importances
+└── 11_residual_analysis.png     # Residual plots for best model
 ```
-
----
-
-## Setup & Installation
-
-### Requirements
-
-```
-Python >= 3.8
-```
-
-### Install dependencies
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn scipy
-```
-
-### Run the analysis
-
-Place `Ecommerce_Customers` in the same directory as the script, then:
-
-```bash
-python ecommerce_ml.py
-```
-
-All 10 output plots are saved automatically to the working directory.
-
 ---
 
 ## Models
