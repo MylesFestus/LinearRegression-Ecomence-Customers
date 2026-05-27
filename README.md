@@ -76,7 +76,6 @@ Five regression algorithms are trained and compared:
 > **Key finding:** Linear models outperform ensemble methods on this dataset — a sign that the underlying relationships between features and spending are predominantly **linear**.
 
 ---
-
 ## Key Findings
 
 ### 1. Linear models are best
@@ -90,7 +89,6 @@ With a Pearson correlation of **r = 0.809** and Random Forest importance of **70
 
 ### 4. Cross-validation confirms stability
 All models show very low CV standard deviations, confirming no overfitting and reliable generalisation to unseen data.
-
 ---
 
 ## Business Recommendations
